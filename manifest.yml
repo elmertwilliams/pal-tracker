@@ -1,0 +1,12 @@
+applications:
+- name: pal-tracker
+  random-route: false
+  routes:
+    - route : pal-tracker-foobar.apps.evans.pal.pivotal.io
+  path: build/libs/pal-tracker.jar
+  disk_quota: 1G
+  env:
+    WELCOME_MESSAGE: Hello from the review environment.
+  instances: 2
+  memory: 768M
+  stack: cflinuxfs2
