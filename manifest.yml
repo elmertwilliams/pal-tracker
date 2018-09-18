@@ -6,7 +6,7 @@ applications:
   path: build/libs/pal-tracker.jar
   disk_quota: 1G
   env:
-    WELCOME_MESSAGE: Hello from the review environment.
+    WELCOME_MESSAGE: Hello from the review environment
   instances: 2
   memory: 768M
   stack: cflinuxfs2
